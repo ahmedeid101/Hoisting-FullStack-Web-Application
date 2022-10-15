@@ -43,4 +43,4 @@ workflows:
       - build: # the job to conditionally run based on the filter-by-branch-name.
           filters:
             branches:
-              only: main
+              only: master
