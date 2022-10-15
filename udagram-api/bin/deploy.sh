@@ -1,4 +1,4 @@
-eb init $EB_APP --platform node.js --region $REGION
-eb use $EB_ENV
-eb deploy
+eb init --region us-east-1 udagram_fullstack --platform node.js 
+eb use udagramfullstack-env
+eb deploy udagramfullstack-env
 
